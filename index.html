@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/indexstyle.css">
+    <link rel="icon" href="icon/logo2.png">
+    <title>Register</title>
+</head>
+<body>
+    <div class="background">
+        <form id="Form">
+            <div class="header">
+                <img src="icon/logo3.png" alt="CLE">
+            </div>
+            <div class="input" id="input">
+                <div class="input-1">
+                    <input type="text" id="NameKh" required="required">
+                    <label>ឈ្មោះជាអក្សរខ្មែរ</label>
+                </div>
+                <div class="input-1">
+                    <input type="text" id="NameEng" required="required">
+                    <label>ឈ្មោះជាអក្សរឡាតាំង</label>
+                </div>
+                <div class="input-1">
+                    <select id="Language" required="required">
+                        <option value=""></option>
+                    </select>
+                    <label>ភាសាដែលចង់ធ្វើតេស្ត</label>
+                </div>
+                <div class="input-1">
+                    <select id="Time" required="required">
+                        <option value=""></option>
+                    </select>
+                    <label>ម៉ោងសិក្សា</label>
+                </div>
+                <div class="input-1">
+                    <input type="text" id="OldLevel" required="required">
+                    <label>កម្រិតដែលធ្លាប់សិក្សា</label>
+                </div>
+                <div class="input-1">
+                    <input type="text" id="TeacherName"  required="required">
+                    <label>ឈ្មោះគ្រូ</label>
+                </div>
+                <div class="input-1">
+                    <input type="text" id="NewLevel" required="required">
+                    <label>កម្រិតចង់រៀន</label>
+                </div>
+                <div class="input-2">
+                    <input type="text" id="Reason">
+                    <label>មូលហេតុ</label>
+                </div>
+                <div class="selcet-un">
+                    <div class="input-2">
+                        <select id="Date" required="required">
+                            <option value=""></option>
+                            <option value="អង្គារ">អង្គារ</option>
+                            <option value="ព្រហស្បតិ៍">ព្រហស្បតិ៍</option>
+                            <option value="សៅរ៍">សៅរ៍</option>
+                        </select>
+                        <label>ថ្ងៃធ្វើតេស្ត</label>
+                    </div>
+                    <div class="input-2">
+                        <input type="text" id="Phone" required="required">
+                        <label>លេខទូរស័ព្ទ</label>
+                    </div>
+                </div>
+            </div>
+            <div class="btn" id="btn">
+                <input type="submit" value="Submit" onclick="showlink()">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="javascriph/indexscriph.js"></script>
+</html>
